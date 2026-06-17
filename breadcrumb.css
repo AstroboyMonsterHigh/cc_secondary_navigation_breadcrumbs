@@ -1,0 +1,20 @@
+/*
+Codecademy : Breadcrumb 2
+*/
+
+/* 1. THE BIG CONTAINER: Fixes the spacing for the entire block */
+.breadcrumb {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+/* 2. THE STRUCTURAL ROWS: Lines up the individual list boxes side-by-side */
+.breadcrumb li {
+    display: inline-block;
+}
+
+.breadcrumb a {
+  display: inline;
+}
